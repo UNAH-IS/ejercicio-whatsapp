@@ -1,0 +1,29 @@
+body {
+  background-color: #3D505E;
+}
+
+.user-select {
+  background-color: #3D505E;
+  padding: 5px;
+}
+
+.user-select img {
+  width: 35px;
+  height: 35px;
+}
+
+.bg-dark {
+  background-color: #1E2A32!important;
+}
+
+.navbar-dark .navbar-brand {
+  color: #999999;
+}
+
+.menu-option {
+  color: #999999;
+}
+
+.menu-option.active {
+  color: rgb(110, 226, 116);
+}
