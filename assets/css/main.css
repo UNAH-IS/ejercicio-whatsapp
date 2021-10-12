@@ -1,5 +1,7 @@
+
 body {
   background-color: #3D505E;
+  color: #999999;
 }
 
 .user-select {
@@ -7,7 +9,16 @@ body {
   padding: 5px;
 }
 
-.user-select img {
+#users-list {
+  background-color: #3D505E;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 0 5px 5px 5px;
+  display: none;
+}
+
+
+.user-select img, #users-list img {
   width: 35px;
   height: 35px;
 }
@@ -22,8 +33,23 @@ body {
 
 .menu-option {
   color: #999999;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin: 0 10px;
 }
 
 .menu-option.active {
   color: rgb(110, 226, 116);
+  border-bottom: 3px solid rgb(83, 248, 92);
+
+}
+
+#chats {
+  background-color: blue;
+}
+
+#contacts {
+  display: none;
+  background-color: red;
 }

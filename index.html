@@ -12,20 +12,73 @@
   <nav class="navbar navbar-dark bg-dark">
     <div class="container-fluid">
       <span class="navbar-brand mb-0 h1">Whatsapp</span>
-      <div class="user-select rounded">
+      <div class="user-select rounded" onclick="toggleUsers()">
         <img src="assets/profile-pics/goku.jpg" class="rounded-circle">
       </div>
     </div>
+    <div class="container-fluid">
+      
+      <div id="users-list" class="row">
+        <div class="small">
+          Seleccione un usuario
+        </div>
+        <div class="col-2">
+          <img src="assets/profile-pics/androide_16.jpg" class="rounded-circle">
+        </div>
+        <div class="col-2">
+          <img src="assets/profile-pics/androide_18.jpg" class="rounded-circle">
+        </div>
+        <div class="col-2">
+          <img src="assets/profile-pics/baby.jpg" class="rounded-circle">
+        </div>
+        <div class="col-2">
+          <img src="assets/profile-pics/cell.jpg" class="rounded-circle">
+        </div>
+        <div class="col-2">
+          <img src="assets/profile-pics/dende.jpg" class="rounded-circle">
+        </div>
+        <div class="col-2">
+          <img src="assets/profile-pics/freezer.jpg" class="rounded-circle">
+        </div>
+        <div class="col-2">
+          <img src="assets/profile-pics/androide_16.jpg" class="rounded-circle">
+        </div>
+        <div class="col-2">
+          <img src="assets/profile-pics/androide_18.jpg" class="rounded-circle">
+        </div>
+        <div class="col-2">
+          <img src="assets/profile-pics/baby.jpg" class="rounded-circle">
+        </div>
+        <div class="col-2">
+          <img src="assets/profile-pics/cell.jpg" class="rounded-circle">
+        </div>
+        <div class="col-2">
+          <img src="assets/profile-pics/dende.jpg" class="rounded-circle">
+        </div>
+        <div class="col-2">
+          <img src="assets/profile-pics/freezer.jpg" class="rounded-circle">
+        </div>
+      </div>
+    </div>
     <div>
-      <span class="menu-option active">
+      <span class="menu-option active" onclick="selectOption('chats', this)">
         Chat
       </span>
-      <span class="menu-option">
+      <span class="menu-option" onclick="selectOption('contacts', this)">
         Contactos
       </span>
     </div>
   </nav>
+  <main>
+    <div class="" id="chats">
+      lista de chats
+    </div>
+    <div class="" id="contacts">
+      lista de contactos
+    </div>
+  </main>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="assets/js/controlador.js"></script>
 </body>
 </html>
