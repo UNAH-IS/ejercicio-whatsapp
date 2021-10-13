@@ -1,6 +1,6 @@
 
 body {
-  background-color: #3D505E;
+  background-color: #111D25;
   color: #999999;
 }
 
@@ -46,10 +46,25 @@ body {
 }
 
 #chats {
-  background-color: blue;
+  
 }
 
 #contacts {
   display: none;
   background-color: red;
 }
+
+.img-chat {
+  width: 50px;
+  height: 50px;
+}
+
+.chat-card {
+  display: flex;
+  border-bottom: 1px solid #999999;
+}
+
+.chat-card .texts {
+  flex: 1;
+}
+
