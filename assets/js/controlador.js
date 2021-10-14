@@ -10,8 +10,16 @@ function toggleUsers() {
   }
 }
 
-function selectOption(id, menuOption) {
+function toggleStickers() {
+  if (document.getElementById('stickers').style.display == 'block') {
+    document.getElementById('stickers').style.display = 'none';
+  } else {
+    document.getElementById('stickers').style.display = 'block';
+  }
+}
 
+function selectOption(id, menuOption) {
+  document.getElementById('chat-detail').style.display = 'none';
   document.getElementById('chats').style.display = 'none';
   document.getElementById('contacts').style.display = 'none';
   document.getElementById(id).style.display = 'block';
@@ -21,4 +29,10 @@ function selectOption(id, menuOption) {
   });
   menuOption.classList.add('active');
 
+}
+
+function showChatDetail() {
+  document.getElementById('chats').style.display = 'none';
+  document.getElementById('contacts').style.display = 'none';
+  document.getElementById('chat-detail').style.display = 'flex';
 }

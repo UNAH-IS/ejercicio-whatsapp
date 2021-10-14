@@ -2,6 +2,13 @@
 body {
   background-color: #111D25;
   color: #999999;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex: 1;
 }
 
 .user-select {
@@ -68,3 +75,62 @@ body {
   flex: 1;
 }
 
+#chat-detail {
+  background-image: url(../bg.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  display: none;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.message {
+  background-color: black;
+  padding: 10px;
+  margin:10px;
+  border-radius: 7px;
+  width: 70%;
+}
+
+.message.sent {
+  background-color: #115248;
+  margin-left: auto;
+}
+.message.received {
+  background-color:  #3C3C3E;
+}
+
+#message-form {
+  background-color: #1E2A32;
+  padding: 10px;
+  display: flex;
+}
+
+#message-form input {
+  flex: 1;
+  font-size: 1.1rem;
+  border-radius: 20px;
+  border: 0;
+}
+
+.icon {
+  padding: 10px;
+}
+
+.icon i {
+  font-size: 1.4rem;
+}
+
+.stickers {
+  background-color: #3D505E;
+  height: 35vh;
+  display: none;
+}
+
+.sticker-container {
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid rgb(110, 110, 110);
+}
