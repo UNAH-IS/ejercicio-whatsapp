@@ -128,7 +128,7 @@ function showChatDetail(chatId) {
     }
 
     if (currentChatDetail[i].tipo === 'sticker') {
-      let sticker = stickers.filter(item => item.id = currentChatDetail[i].stiker)[0];
+      let sticker = stickers.filter(item => item.id = currentChatDetail[i].sticker)[0];
       mensaje = `<img src="assets/stickers/${sticker.sticker}" style="width:150px">`;
     }
 
