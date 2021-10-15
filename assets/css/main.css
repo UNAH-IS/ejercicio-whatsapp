@@ -1,0 +1,136 @@
+
+body {
+  background-color: #111D25;
+  color: #999999;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.user-select {
+  background-color: #3D505E;
+  padding: 5px;
+}
+
+#users-list {
+  background-color: #3D505E;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 0 5px 5px 5px;
+  display: none;
+}
+
+
+.user-select img, #users-list img {
+  width: 35px;
+  height: 35px;
+}
+
+.bg-dark {
+  background-color: #1E2A32!important;
+}
+
+.navbar-dark .navbar-brand {
+  color: #999999;
+}
+
+.menu-option {
+  color: #999999;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin: 0 10px;
+}
+
+.menu-option.active {
+  color: rgb(110, 226, 116);
+  border-bottom: 3px solid rgb(83, 248, 92);
+
+}
+
+#chats {
+  
+}
+
+#contacts {
+  display: none;
+  background-color: red;
+}
+
+.img-chat {
+  width: 50px;
+  height: 50px;
+}
+
+.chat-card {
+  display: flex;
+  border-bottom: 1px solid #999999;
+}
+
+.chat-card .texts {
+  flex: 1;
+}
+
+#chat-detail {
+  background-image: url(../bg.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  display: none;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.message {
+  background-color: black;
+  padding: 10px;
+  margin:10px;
+  border-radius: 7px;
+  width: 70%;
+}
+
+.message.sent {
+  background-color: #115248;
+  margin-left: auto;
+}
+.message.received {
+  background-color:  #3C3C3E;
+}
+
+#message-form {
+  background-color: #1E2A32;
+  padding: 10px;
+  display: flex;
+}
+
+#message-form input {
+  flex: 1;
+  font-size: 1.1rem;
+  border-radius: 20px;
+  border: 0;
+}
+
+.icon {
+  padding: 10px;
+}
+
+.icon i {
+  font-size: 1.4rem;
+}
+
+.stickers {
+  background-color: #3D505E;
+  height: 35vh;
+  display: none;
+}
+
+.sticker-container {
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid rgb(110, 110, 110);
+}
