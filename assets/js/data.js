@@ -124,7 +124,7 @@ var conversacionesData = {
       emisor: 2,
       receptor: 1,
       tipo: 'sticker',
-      stiker: 1
+      sticker: 1
     }
   ],
   'chat-1-3': [
